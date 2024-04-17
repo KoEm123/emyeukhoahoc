@@ -1,0 +1,93 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width : 25cm;
+    height:22cm;
+    margin: 0 auto;
+    border:1px solid  black;
+    border-radius: 40px;
+    display:grid  ;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+                                        /* trai */
+.left
+{
+    border-top-left-radius:40px ;
+    border-bottom-left-radius:40px;
+    background-color: #2A78AB;
+}
+.avatar
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    padding: 30px 39px 30px 39px;
+    object-fit:cover;
+}
+.name
+{
+    padding-left: 10%;
+}
+    .name h1
+    {
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aliceblue;
+        height: 15px;
+        font-size: 30px;
+    }
+    .name h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+        color: aliceblue;
+    }
+.info{color: aliceblue;}
+.icon
+{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+.title{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.skill h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding-top: 10px;
+    height: 10px;
+}
+    .leadskill
+    {
+        color: aliceblue;
+    }
+    .leadskill li
+    {
+        font-size: 18px;
+    }
+
+                                            /* phai */
+.exp
+{
+    width: 400px;
+    height: 80px;
+    background-color:#2A78AB;
+    margin-left: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.detail
+{
+    margin-left: auto;
+    font-size: 20px;
+}
